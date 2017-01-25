@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AmitLibs.iml" filepath="$PROJECT_DIR$/AmitLibs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../VisitingCardApp.iml" filepath="$PROJECT_DIR$/../VisitingCardApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../facebook/facebook.iml" filepath="$PROJECT_DIR$/../facebook/facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../linkedin-sdk/linkedin-sdk.iml" filepath="$PROJECT_DIR$/../linkedin-sdk/linkedin-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../simple-crop-image-lib/simple-crop-image-lib.iml" filepath="$PROJECT_DIR$/../simple-crop-image-lib/simple-crop-image-lib.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,146 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jsm.safedrive.fragments.HomeFragment">
+    <data>
+        <variable
+            name="homebean"
+            type="com.example.jsm.safedrive.bean.HomeBean"/>
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/activity_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/safe_drive_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/safe_drive"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/safe_drive_text">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.80">
+
+
+                        <RelativeLayout
+                            android:id="@+id/center_relative"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true">
+
+                            <ImageView
+                                android:id="@+id/center_circle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/circle_name"
+                                android:layout_centerInParent="true"/>
+
+                            <ImageView
+                                android:id="@+id/img_stering"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/stering"
+                                android:layout_centerInParent="true"/>
+
+                            <ImageView
+                                android:id="@+id/img_trip_recording"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/home_trip_record_selector"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"/>
+
+
+                            <ImageView
+                                android:id="@+id/img_nearBy"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/home_nearme_selector"
+                                android:layout_marginTop="4dp"
+                                android:layout_below="@id/img_trip_recording"/>
+
+                            <ImageView
+                                android:id="@+id/img_share_location"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/home_shareloc_selector"
+                                android:layout_toRightOf="@id/img_stering"
+                                android:layout_below="@id/img_trip_recording"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginLeft="15dp"/>
+
+                            <ImageView
+                                android:id="@+id/img_speed_invisible"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/speed_icon"
+                                android:layout_below="@id/img_stering"
+                                android:visibility="invisible"/>
+
+                            <ImageView
+                                android:id="@+id/img_speed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:paddingLeft="8dp"
+                                android:src="@drawable/home_speedsafety_selector"
+                                android:layout_below="@id/img_speed_invisible" />
+
+
+                            <ImageView
+                                android:id="@+id/img_accident_zone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/home_accidentzone_selector"
+                                android:layout_below="@id/img_speed"
+                                android:layout_centerHorizontal="true"
+                                android:paddingLeft="15dp"/>
+
+                            <ImageView
+                                android:id="@+id/img_emergency_call_icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/img_speed_invisible"
+                                android:src="@drawable/home_emergency_selector"
+                                android:layout_toRightOf="@id/img_stering"
+                                android:paddingLeft="15dp"
+                                android:paddingBottom="5dp"
+                                android:layout_marginLeft="5dp"/>
+
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+
+</layout>
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/user_con_bg">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/select_con_user"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_home_emerCall_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user name"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:maxEms="8"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_home_emerCall_userPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user name"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:maxEms="8"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

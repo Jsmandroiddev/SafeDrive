@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/parentll"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/img_editemr_recycler_all_con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/edit_all_con_user_pro" />
+
+        <TextView
+            android:id="@+id/tv_edit_emer_all_con_uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:maxEms="5"
+            android:maxLines="1"
+            android:text="Username"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_edit_emer_all_con_uphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:maxEms="5"
+            android:maxLines="1"
+            android:text="898458589"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</RelativeLayout>
